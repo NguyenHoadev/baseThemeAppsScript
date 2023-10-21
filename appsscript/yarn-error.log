@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/phdv/.nvm/versions/node/v18.15.0/bin/node /Users/phdv/.nvm/versions/node/v18.15.0/bin/yarn add -D @types/google-app-script
+
+PATH: 
+  /Users/phdv/Library/Python/3.9/bin/:/opt/homebrew/opt/libpq/bin:/Users/phdv/.rbenv/shims:/Users/phdv/.rbenv/bin:/opt/homebrew/opt/ruby@2.7/bin:/Users/phdv/.nvm/versions/node/v18.15.0/bin:/Users/phdv/.rbenv/shims:opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin:/bin:/usr/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/phdv/Library/Python/3.9/bin/:/opt/homebrew/opt/libpq/bin:/Users/phdv/.rbenv/shims:/Users/phdv/.rbenv/bin:/opt/homebrew/opt/ruby@2.7/bin:/Users/phdv/.nvm/versions/node/v18.15.0/bin:opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/phdv/Library/Android/sdk/emulator:/Users/phdv/Library/Android/sdk/platform-tools:/Users/phdv/Library/Android/sdk/emulator:/Users/phdv/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fgoogle-app-script: Not found
+      at params.callback [as _callback] (/Users/phdv/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/phdv/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/phdv/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/phdv/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "appsscript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "doGet.js",
+    "scripts": {
+      "push": "clasp push",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
